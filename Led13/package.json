@@ -1,16 +1,21 @@
 {
-  "name": "Led13",
+  "name": "led13",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "reset": "firmata-party uno --debug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
     "johnny-five": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
   }
 }
